@@ -1,0 +1,13 @@
+language: java
+
+jdk:
+  - openjdk6
+  - oraclejdk7
+  - oraclejdk8
+
+browserstack:
+  username: anirudhakhanna2
+  access_key:
+    secure: "Osxv5nBNe+QYhiimlGoYw5cK6ivj0tIE09bb8EoQ9nOYL4YbitynIZ7xBa6VRJLhq/YUuPSwMR5hFubU6iVfDpvVLaKzX0xsW4wplRdyxXcl9n+Oj3hcRSctj5sALqo9WUN0DhfneIa3M3506+ugovHEDIC52tSTfXvPvEF6FsjkTF9y5a/adltY58iyKV99xMVqYZ+tjB7HHZqJT6GRQQnAlUPVCPq0GV2w+Ghj4PYZdR9xXZRe0JAaYUSeOSfX0HH8G3KBnayearZ7rscmIenZ9oopfQeqos6kgZ/qteWE8SnRTyzzcniwdq9mFiJvfvd9EBSvTEssfaWis3uobEzP99B5GuHDoBWOWmoH9Vs/biyn3s0JeGWN5onzxt/qyhVhwef5e2JDcpGjmAyt6aeQ5BXobGGhzvWiH+VTXPFdXMlRTwCk06W2xxQlDOrchUUXs6HpgXJgOHDBtbGUtdj2SE2mNayxsPePMYE4AkHs153eVX5uP0yX8TU9yZjzQDr4xdcueDhn4OVwVMVEretGNQjYYJw0cKmumMg60Z0q57DizVM4HT5kdkA2dabumIJmn/MdaQtj064BKCRd7i4+BycioF07KVwAqhwm3XZc46Bfv+4YSgxOUMF7BurItjYwqFXI8TPw2iYNFsVDSG73bSxepnv0DXeDM4/N8AE="
+
+script: "mvn clean package"
